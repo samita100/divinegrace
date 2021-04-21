@@ -407,7 +407,7 @@ header ul li a:hover, header ul li a.active {
   .content p {
     font-size: 1em;
   }
-  imgBx img {
+  .imgBx img {
     max-width: 300px;
   }
   .circle1 {
