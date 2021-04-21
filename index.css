@@ -396,7 +396,7 @@ header ul li a:hover, header ul li a.active {
 
 @media (max-width: 600px) {
   .container, .container2, .container3, .container4 {
-    width: 200%;
+    width: 100%;
   }
   header a {
     text-align: center;
@@ -407,7 +407,7 @@ header ul li a:hover, header ul li a.active {
   .content p {
     font-size: 1em;
   }
-  .imgBx img {
+  imgBx img {
     max-width: 300px;
   }
   .circle1 {
