@@ -7,11 +7,7 @@
   
 }
 
-body {
-  background: linear-gradient(to right top, #f02c6d, #f07929);
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 
 .section, .section2, .section3, .section4 {
   display: flex;
