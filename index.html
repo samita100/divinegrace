@@ -4,57 +4,195 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-      body {
-        background: linear-gradient(to right top, #f02c6d, #f07929);
-        background-size: cover;
-        background-attachment: fixed;
-      }
-    </style>
-    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-    <link rel='preload' as='style' href='https://fonts.googleapis.com/css?family=Poppins:400,500,700,&display=swap'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:400,500,700,&display=swap'>
-    <style>
-      @font-face {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      @font-face {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      @font-face {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-    </style>
     <title>Home | Divine Grace in Action</title>
-    <link href="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/index.css" rel="stylesheet" type="text/css" />
-    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <style>
+    /** 6 **/
+    .load6 path:nth-of-type(1) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(2) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(3) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(4) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(5) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(6) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(7) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .load6 path:nth-of-type(8) {
+      -webkit-animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+              animation: spin_single 1s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+
+    .pre path {
+      transform-origin: center;
+      transform-box: fill-box;
+      transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    @-webkit-keyframes spinHalf {
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spinHalf {
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes spin_full {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes spin_full {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes spin_single_neg {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-180deg);
+      }
+    }
+    @keyframes spin_single_neg {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-180deg);
+      }
+    }
+    @-webkit-keyframes spin_single {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(180deg);
+      }
+    }
+    @keyframes spin_single {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(180deg);
+      }
+    }
+    </style>
+    <meta name="theme-color" content="#f07929"/>
   </head>
-  <body>
+  <body onload="showWebsite()">
+
+    <div id="preloader" style="display: grid; place-content: center; position: fixed; width: 100%; height: 100vh; background-color: #fff; z-index: 99999;">
+    <!-- Preloader 6 -->
+    <svg version="1.1" id="preloader6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250px" height="250px"
+      viewBox="0 0 200 200">
+      <g class="pre load6">
+        <path fill="#f07929" d="M124.5,57L124.5,57c0,3.9-3.1,7-7,7h-36c-3.9,0-7-3.1-7-7v0c0-3.9,3.1-7,7-7h36
+      C121.4,50,124.5,53.1,124.5,57z"/>
+        <path fill="#f0701a" d="M147.7,86.9L147.7,86.9c-2.7,2.7-7.2,2.7-9.9,0l-25.5-25.5c-2.7-2.7-2.7-7.2,0-9.9l0,0
+      c2.7-2.7,7.2-2.7,9.9,0L147.7,77C150.5,79.8,150.5,84.2,147.7,86.9z"/>
+        <path fill="#eb5013" d="M143,74.5L143,74.5c3.9,0,7,3.1,7,7v36c0,3.9-3.1,7-7,7l0,0c-3.9,0-7-3.1-7-7v-36
+      C136,77.6,139.1,74.5,143,74.5z"/>
+        <path fill="#ed400c" d="M148.4,112.4L148.4,112.4c2.7,2.7,2.7,7.2,0,9.9L123,147.7c-2.7,2.7-7.2,2.7-9.9,0h0c-2.7-2.7-2.7-7.2,0-9.9
+      l25.5-25.5C141.3,109.6,145.7,109.6,148.4,112.4z"/>
+        <path fill="#f20a40" d="M125.5,143L125.5,143c0,3.9-3.1,7-7,7h-36c-3.9,0-7-3.1-7-7l0,0c0-3.9,3.1-7,7-7h36 C122.4,136,125.5,139.1,125.5,143z"/>
+        <path fill="#f02c6d" d="M52.3,113.1L52.3,113.1c2.7-2.7,7.2-2.7,9.9,0l25.5,25.5c2.7,2.7,2.7,7.2,0,9.9h0c-2.7,2.7-7.2,2.7-9.9,0
+      L52.3,123C49.5,120.2,49.5,115.8,52.3,113.1z"/>
+        <path fill="#f2244a" d="M57,75.5L57,75.5c3.9,0,7,3.1,7,7v36c0,3.9-3.1,7-7,7h0c-3.9,0-7-3.1-7-7v-36C50,78.6,53.1,75.5,57,75.5z"/>
+        <path fill="#ed1519" d="M86.9,52.3L86.9,52.3c2.7,2.7,2.7,7.2,0,9.9L61.5,87.6c-2.7,2.7-7.2,2.7-9.9,0l0,0c-2.7-2.7-2.7-7.2,0-9.9
+      L77,52.3C79.8,49.5,84.2,49.5,86.9,52.3z"/>
+      </g>
+    </svg>
+    </div>
+
+  
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <style>
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    </style>
     
+
     <section class="section">
       <div class="circle1"></div>
       <div class="container">
         <header>
           <div class="headerDiv">
           <picture>
-            <source type="image/webp" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/logo.webp" loading="lazy">
-            <source type="image/png" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/logo.png" loading="lazy">
-            <img src="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/logo.png" loading="lazy">
+            <source type="image/webp" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/logo.webp" loading='lazy'>
+            <source type="image/png" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/logo.png" loading='lazy'>
+            <img src="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/logo.png" loading='lazy'>
           </picture>
           <a href="" class="logo">Divine Grace in Action</a>
           </div>
@@ -76,9 +214,9 @@
         </div>
         <div class="imgBx">
           <picture>
-            <source type="image/webp" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/Saly-3.webp" loading="lazy">
-            <source type="image/png" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/Saly-3.webp" loading="lazy">
-            <img src="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/Saly-3.png" loading="lazy">
+            <source type="image/webp" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/Saly-3.webp" loading='lazy'>
+            <source type="image/png" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/Saly-3.webp" loading='lazy'>
+            <img src="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/Saly-3.png" loading='lazy'>
           </picture>
         </div>
       </div>
@@ -94,9 +232,9 @@
       <div class="container3">
         <div class="floating"></div>
         <picture>
-          <source type="image/webp" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/giving.webp" loading="lazy">
-          <source type="image/png" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/giving.png" loading="lazy">
-          <img src="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/giving.png" loading="lazy">
+          <source type="image/webp" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/giving.webp" loading='lazy'>
+          <source type="image/png" srcset="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/giving.png" loading='lazy'>
+          <img src="https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/giving.png" loading='lazy'>
         </picture>
         <div class="content3">
           <h2>We have been contributing for more than 6 years and will continue till our last breath</h2>
@@ -124,7 +262,17 @@
         <a href="mailto:support@divinegrace">support@divinegrace</a>
       </div>
     </section>
+    
+  <script>
+    var preloader = document.getElementById("preloader");
 
+    function showWebsite() {
+      preloader.style.display = "none";
+    }
+
+  </script>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel='icon' href='https://cdn.jsdelivr.net/gh/samita100/divinegrace@main/favicon.ico' type='image/x-icon'/ >
 
   </body>
 </html>
