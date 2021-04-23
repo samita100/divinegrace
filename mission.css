@@ -7,11 +7,6 @@
   
 }
 
-body {
-  background: linear-gradient(to right top, #f02c6d, #f07929);
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 .section {
   display: flex;
@@ -20,8 +15,6 @@ body {
   min-height: 100vh;
   padding: 50px;
 }
-
-
 
 
 .circle1 {
