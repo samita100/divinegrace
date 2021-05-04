@@ -485,3 +485,11 @@ header ul li a:hover, header ul li a.active {
   }
 }
 
+
+
+
+.platinum {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

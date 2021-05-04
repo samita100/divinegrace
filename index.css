@@ -516,3 +516,12 @@ header ul li a:hover, header ul li a.active {
 	75% {  transform: rotateX(95deg) translateZ(-80px) scale(1)  rotateZ(90deg); }	
 	100% { transform: rotateX(95deg) translateZ(-80px) scale(1)  rotateZ(0deg); }
 }
+
+
+
+
+.platinum {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
