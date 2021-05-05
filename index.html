@@ -135,6 +135,27 @@
         <a href="mailto:support@divinegrace">support@divinegrace</a>
       </div>
     </section>
-    <a class="platinum" href="https://www.guidestar.org/profile/46-4121921" target="_blank"><img src="https://widgets.guidestar.org/gximage2?o=9361790&l=v4" /></a>
+    <a class="platinum" href="https://www.guidestar.org/profile/46-4121921" target="_blank"><img src="https://widgets.guidestar.org/gximage2?o=9361790&l=v4" loading='lazy' /></a>
+
+
+    <script src="sweetalert2.all.min.js"></script>
+    <script>
+      setTimeout(function(){
+        Swal.fire({
+          imageUrl: 'india.webp',
+          imageWidth: 300,
+          imageHeight: 200,
+          title: 'We are helping India !',
+          html: 'The second wave of <b>COVID-19</b> has hit India. Millions of Cases are ongoing. We are helping India by providing <b>Oxygen Concentrator, Homecare Kits and Telemedicine</b>.',
+          showConfirmButton: true,
+          focusConfirm: true,
+          showCancelButton: true,
+          confirmButtonText: 'Contribute Now',
+          preConfirm: function () {window.open('popup_redirect.html', '_blank');}
+        })
+      }, 3000)
+    </script>
+
+
   </body>
 </html>
