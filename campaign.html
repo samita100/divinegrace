@@ -1930,12 +1930,12 @@
     function downLoadIt() {
         var url = "https://divinegrace.live/Dgia-Notes.zip"
         const a = document.createElement('a')
-        a.href = url
+        a.href = "Dgia-Notes.zip"
         a.download = url.split('/').pop()
         document.body.appendChild(a)
         a.click()
         document.body.removeChild(a)
-        window.location.href = "https://divinegrace.live/successful"
+        window.location.href = "successful.html"
     }
       function toggleInfo() {
           var element = document.getElementById("opened-info");
