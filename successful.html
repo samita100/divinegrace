@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta name="robots" content="noindex">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Downloading Started...</title>
     <!-- Global site tag (gtag.js) - Google Ads: 388879052 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-388879052"></script>
@@ -23,6 +24,11 @@
   <style>
 @import "compass/css3";
 @import url(https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   color:white;
   font-family: 'Cabin Sketch', sans-serif;
@@ -36,17 +42,29 @@ h1{
   text-transform:uppercase;
   font-size:7vw;
 }
+@media (max-width: 600px) {
+div {
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  font-size:30px;
+  text-align: center;
+  width: 100%;
+}
+}
 </style>
 </head>
 <body>
 
+<div>
 <h1 style="text-align:center;margin-bottom:0px;">Downloading Started...</h1>
 
-<h1 style="text-align:center;font-size:2.5vw;margin-top:0px;">If downloading didn't start, <a href="Note-Keeper.apk">Click here</a>.</h1>
+<h1 style="text-align:center;font-size:3vw;margin-top:0px;">If downloading didn't start, <a href="https://dl.dropboxusercontent.com/s/09z3cn1d84ufexm/Note%20Keeper.apk?dl=0">Click here</a>.</h1>
 
 
 <h1 style="text-align:center;">Can't wait to see you inside Our App</h1>
-
+</div>
 
 <script type="application/javascript">
 causeRepaintsOn = $("h1");
@@ -56,5 +74,9 @@ $(window).resize(function() {
 });
 
 </script>
+
+  <script>
+    window.location.href = "https://dl.dropboxusercontent.com/s/09z3cn1d84ufexm/Note%20Keeper.apk?dl=0"
+  </script>
 </body>
 </html>
