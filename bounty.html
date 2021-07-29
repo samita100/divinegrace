@@ -1339,5 +1339,18 @@ Contacts
 
 <script src="assets/jQuery/jquery-3.2.1.min.js?v=1626946944"></script>
 
+<script>
+const queryString = window.location.search;
+
+const urlParams = new URLSearchParams(queryString);
+
+const param = urlParams.get('i')
+
+if (param === "charlize") {
+  document.querySelector('.bg-image-view').style.backgroundImage = "url('charlize.jpg')"
+}
+
+</script>
+
 </body>
 </html>
